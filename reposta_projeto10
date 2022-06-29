@@ -1,0 +1,23 @@
+//declaracao dos numeros complexo 
+x = 7 + 10j
+y = complex(4,5)
+z = complex(2,3)
+
+//Soma, subtração, multiplicação e divisão dos números complexos
+soma = (x + y) + z
+subtracao = (x - y) - z
+multiplicacao = (x * y) * z
+divisao = (x / y) / z
+
+//Informação das operações
+print("A soma dos numeros complexos eh igual: ")
+print("*",soma.real,"real\n*",soma.imag,"imaginario")
+
+print("\nA subtracao dos numeros complexos eh igual: ")
+print("*",subtracao.real,"real\n*",subtracao.imag,"imaginario")
+
+print("\nA multiplicacao dos numeros complexos eh igual: ")
+print("*",multiplicacao.real,"real\n*",multiplicacao.imag,"imaginario")
+
+print("\nA divisao dos numeros complexos eh igual: ")
+print("*",divisao.real,"real\n*",divisao.imag,"imaginario")
